@@ -11,15 +11,6 @@ This project aims to provide insights into mental health trends by analyzing sea
 
 These models help identify patterns, predict future trends, and visualize the seasonal and temporal dynamics of mental health-related search behaviors.
 
-## Process
-
-- Data Preprocessing: Handles missing data, outliers, and formatting.
-- Stationarity Testing: Conducts the Augmented Dickey-Fuller (ADF) test.
-- Automated Model Selection: Uses auto_arima to identify optimal SARIMA parameters.
-- Forecasting: Produces a 12-month forecast with confidence intervals.
-- Evaluation: Compares forecasts with actual data and calculates Mean Absolute Error (MAE).
-- Visualization: Provides time-series plots for observed, forecasted, and actual data.
-
 ## Data
 
 Five key search terms (depression symptoms, antidepressants, therapy, burnout, and mental health support) were collected from Google Trends and a weighted average was applied to these search terms to create a single, aggregated time series. This approach allows for a more comprehensive understanding of overall mental health trends.
