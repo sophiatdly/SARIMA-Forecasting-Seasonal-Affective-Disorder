@@ -34,6 +34,15 @@ Five key search terms (depression symptoms, antidepressants, therapy, burnout, a
 #### 5. Visualization:
   - Time Series Plots: Visualized observed, forecasted, and actual data (when available).
 
+## Results
 
+Mean Absolute Error (MAE) results for each individual search term and aggregated search terms models:
+
+- Antidepressants: 3.8322110689044235
+- Burnout: 5.809752546351387
+- Depression Symptoms: 5.627506881314137
+- Mental Health Support: 10.712936491415801
+- Therapy: 4.689034142339209
+- Aggregated Model: 1.9752425388052426
 
 
