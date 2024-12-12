@@ -1,6 +1,6 @@
 # Seasonal Affective Disorder Forecasting with SARIMA
 
-### Project Overview
+## Project Overview
 
 This repository contains a collection of SARIMA models that analyze and forecast search trends related to mental health topics using Google Trends data. The project culminates in a comprehensive Aggregated Final Model that integrates predictions from five key search terms: depression symptoms, antidepressants, therapy, burnout, and mental health support.
 
@@ -11,7 +11,7 @@ This project aims to provide insights into mental health trends by analyzing sea
 
 These models help identify patterns, predict future trends, and visualize the seasonal and temporal dynamics of mental health-related search behaviors.
 
-### Process
+## Process
 
 - Data Preprocessing: Handles missing data, outliers, and formatting.
 - Stationarity Testing: Conducts the Augmented Dickey-Fuller (ADF) test.
@@ -20,11 +20,11 @@ These models help identify patterns, predict future trends, and visualize the se
 - Evaluation: Compares forecasts with actual data and calculates Mean Absolute Error (MAE).
 - Visualization: Provides time-series plots for observed, forecasted, and actual data.
 
-### Data
+## Data
 
 Five key search terms (depression symptoms, antidepressants, therapy, burnout, and mental health support) were collected from Google Trends and a weighted average was applied to these search terms to create a single, aggregated time series. This approach allows for a more comprehensive understanding of overall mental health trends.
 
-### Methodology
+## Methodology
 
 #### 1. Data Preprocessing:
   - Data Cleaning: Handled missing values and outliers.
